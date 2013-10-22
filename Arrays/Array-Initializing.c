@@ -9,22 +9,25 @@ int main(int argc, char *argv[]) {
   
   int oneAnd9Zeros[10] = {1}; // everything not specified in an integer array is initialized to zero
   
-  memset(&input, 0, arraylength*sizeof(int));
+  //memset(&input, 0, arraylength*sizeof(int));
   
   //Printing integer arrays to test
   
   int i;
-  arraySize=10;
+  int arraySize=10;
 
+
+   printf("printing \"tenZeroes\" \n");
   for (i=0; i < arraySize ; i++) {
     printf("%d",tenZeroes[i]);
   }
-  printf("\n")
+  printf("\n");
 
+   printf("printing \"oneAnd9Zeros\" \n");
   for (i=0; i < arraySize ; i++) {
-    printf("%d",oneAnd9Zeroes[i]);
+    printf("%d",oneAnd9Zeros[i]);
   }
-  printf("\n")
+  printf("\n");
   
   
   
