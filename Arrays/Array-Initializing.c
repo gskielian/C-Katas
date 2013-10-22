@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
   //To Print everything we must use a for loop
   
   for (i = 0; i < 4; i++) {
-    putChar(noStopChar[i]); //putChar prints single character to stdout
+    putchar(noStopChar[i]); //putchar prints single character to stdout
   }
   
   
