@@ -17,11 +17,27 @@ int main(int argc, char *argv[]) {
     //Shorthand way of initializing an array
   
     char quickArray[]="Hola"; // IMPT: the size of this is also 5 characters *** the '\0' is implied at the end
-  
     
+    //create the array then setting it, this creates an array of \0, then we fill it.
 
+    char arrayFill[5]; //initialize an array with no values
+
+    //once an array is intialized, we mustchange the characters one by one
+    //
+    arrayFill[0]='H';
+    arrayFill[1]='o';
+    arrayFill[2]='l';
+    arrayFill[3]='a';
+    arrayFill[4]='\0';
+
+
+   
+  //printing the arrays for test
   
+    printf("%s \n", anArray);
+    printf("%s \n", quickArray);
+    printf("%s \n", arrayFill);
   
-  
+  return 0;
   
 }
