@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
   
   
   
-  //character array
+  //Examples for character arrays with a \0 at the end, these can be printed with printf
   
     char anArray[]={'H','o','l','a','\0'}; //clearly this is 5 characters long
   
@@ -59,6 +59,23 @@ int main(int argc, char *argv[]) {
     printf("%s \n", anArray);
     printf("%s \n", quickArray);
     printf("%s \n", arrayFill);
+  
+  
+  
+  
+  
+  
+  
+  //Character arrays without \0 at the end must be printed with putchar (this section is not tested yet)
+  
+  char noStopChar[]={'H','o','l','a'} // JUST 4 Elements
+  
+  //To Print everything we must use a for loop
+  
+  for (i = 0; i < 4; i++) {
+    putChar(noStopChar[i]); //putChar prints single character to stdout
+  }
+  
   
   return 0;
   
