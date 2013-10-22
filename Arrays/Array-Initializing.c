@@ -12,6 +12,16 @@ int main(int argc, char *argv[]) {
   
   //character array
   
+    char anArray[]={'H','o','l','a','\0'}; //clearly this is 5 characters long
+  
+    //Shorthand way of initializing an array
+  
+    char quickArray[]="Hola"; // IMPT: the size of this is also 5 characters *** the '\0' is implied at the end
+  
+    
+
+  
+  
   
   
 }
